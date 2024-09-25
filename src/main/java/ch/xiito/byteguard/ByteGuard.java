@@ -12,7 +12,7 @@ public class ByteGuard {
     private final ShardManager shardManager;
 
     public ByteGuard() throws LoginException {
-        String token = "MTI4MDQ1NTU0ODc4OTMyNTg4OA.GcLzcY.c8VJWBn-o49SU0Ju5TaKvpP6gnPiMeR3qoEIiA";
+        String token = "";
         DefaultShardManagerBuilder builder = DefaultShardManagerBuilder.createDefault(token);
         builder.setStatus(OnlineStatus.ONLINE);
         builder.setActivity(Activity.customStatus("Coding Myself"));
